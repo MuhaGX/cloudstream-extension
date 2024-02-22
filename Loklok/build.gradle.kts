@@ -1,13 +1,13 @@
 // use an integer for version numbers
-version = 1
+version = 26
 
 
 cloudstream {
-    language = "id"
+    language = "en"
     // All of these properties are optional, you can safely remove them
 
-//     description = "Lorem Ipsum"
-     authors = listOf("Hexated")
+    description = "#2 best extension based on Loklok API"
+    authors = listOf("Hexated")
 
     /**
      * Status int as the following:
@@ -18,10 +18,12 @@ cloudstream {
      * */
     status = 0 // will be 3 if unspecified
     tvTypes = listOf(
-        "AnimeMovie",
+        "AsianDrama",
         "Anime",
-        "OVA",
+        "TvSeries",
+        "Movie",
     )
 
-    iconUrl = "https://www.google.com/s2/favicons?domain=185.231.223.76&sz=%size%"
+
+    iconUrl = "https://www.google.com/s2/favicons?domain=loklok.com&sz=%size%"
 }
